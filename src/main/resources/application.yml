@@ -7,5 +7,6 @@ spring:
 
 eureka:
   client:
+    ## register-with-eureka -> true로 하면 현재 구동중인 서버를 서비스로 등록해버림, 필요가 없는 작업
     register-with-eureka: false
     fetch-registry: false
